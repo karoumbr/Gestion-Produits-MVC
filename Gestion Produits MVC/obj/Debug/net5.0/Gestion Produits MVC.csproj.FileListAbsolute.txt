@@ -123,3 +123,6 @@ C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\
 C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\net5.0\Razor\Views\Produit\Details.cshtml.g.cs
 C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\net5.0\Razor\Views\Produit\Create.cshtml.g.cs
 C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\net5.0\Razor\Views\Produit\Edit.cshtml.g.cs
+C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\bin\Debug\net5.0\libman.json
+C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\net5.0\Razor\Views\Shared\Notification.cshtml.g.cs
+C:\Users\karou\source\repos\Gestion Produits MVC\Gestion Produits MVC\obj\Debug\net5.0\Razor\Views\Shared\Components\NomFamilles\Default.cshtml.g.cs
