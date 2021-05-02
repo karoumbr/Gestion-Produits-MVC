@@ -27,7 +27,7 @@ using Gestion_Produits_MVC.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8c22927781163f63cfec864c60440b6272a58f8", @"/Views/Famille/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"18223e40b67a5f4f3b910a71ca6334f0eb9e4c40", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4c061307282eba7537a8c0e0259a231f132d632", @"/Views/_ViewImports.cshtml")]
     public class Views_Famille_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Gestion_Produits_MVC.Models.Famille>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

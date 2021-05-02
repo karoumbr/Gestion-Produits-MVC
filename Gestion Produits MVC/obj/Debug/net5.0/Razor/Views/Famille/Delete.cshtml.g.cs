@@ -27,7 +27,7 @@ using Gestion_Produits_MVC.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"008f40f3960cc64c855c7c8ac361a564f92c14ee", @"/Views/Famille/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"18223e40b67a5f4f3b910a71ca6334f0eb9e4c40", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4c061307282eba7537a8c0e0259a231f132d632", @"/Views/_ViewImports.cshtml")]
     public class Views_Famille_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Gestion_Produits_MVC.Models.Famille>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
