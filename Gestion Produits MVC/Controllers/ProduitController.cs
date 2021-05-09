@@ -77,6 +77,7 @@ namespace Gestion_Produits_MVC.Controllers
                 reference = produit.reference,
                 designation = produit.designation,
                 description = produit.description,
+                disponible = produit.disponible,
                 FamilleId = produit.famille.id,
                 Familles = FamilleRepository.Lister()
             };
@@ -93,6 +94,7 @@ namespace Gestion_Produits_MVC.Controllers
                     reference = viewModel.reference,
                     designation = viewModel.designation,
                     description = viewModel.description,
+                    disponible = viewModel.disponible,
                     famille = new Famille
                     {
                         id = viewModel.FamilleId,
@@ -109,5 +111,34 @@ namespace Gestion_Produits_MVC.Controllers
                 return View();
             }
         }
+        public ActionResult Delete(int id)
+        {
+            var produit = ProduitRepository.ListerSelonId(id);
+            ProduitFamilleViewModel viewModel = new ProduitFamilleViewModel
+            {
+                ProduitId = produit.id,
+                reference = produit.reference,
+                designation = produit.designation,
+                description = produit.description,
+                disponible = produit.disponible,
+                FamilleId = produit.famille.id,
+                Familles = FamilleRepository.Lister()
+            };
+            return View(viewModel);
+        }
+        [HttpPost]
+        public ActionResult Delete(int id, ProduitFamilleViewModel produit)
+        {
+            try
+            {
+                ProduitRepository.Supprimer(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception)
+            {
+                return View();
+            }
+        }
+
     }
 }

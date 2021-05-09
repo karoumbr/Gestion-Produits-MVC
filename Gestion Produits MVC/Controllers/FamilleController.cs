@@ -54,6 +54,7 @@ namespace Gestion_Produits_MVC.Controllers
             var famille = Repository.ListerSelonId(id);
             return View(famille);
         }
+
         [HttpPost]
         public ActionResult Edit(int id,Famille famille)
         {
